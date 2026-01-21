@@ -3,7 +3,7 @@
 ## Overview
 
 This repository implements and motivates a **Lorentzian parameterization of MEG power spectra** designed to study neurophysiological alterations in Alzheimer’s disease (AD).
-It's ambition is not to give a full framework, but more as a proposition to study. It is partially derived from [FOOOF/Specparam](https://fooof-tools.github.io/fooof/), it is focused on the Lorentzian parameterization of the power spectrum.
+It's ambition is not to give a full framework, but more as a proposition to study. It is partially derived from [FOOOF/Specparam](https://fooof-tools.github.io/fooof/), it is focused on the Lorentzian parameterization of the power spectrum, it has been developed for the following data: https://osf.io/t753c/.
 
 ## Why a Lorentzian model?
 
