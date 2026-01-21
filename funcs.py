@@ -6,7 +6,7 @@ def log_knee_power_law(x, a, k, c):
 
 
 def log_free_roll_lorentzian(x, a, fc, c):
-    return a - np.log10(1 + (x / fc) ** c)
+    return a - np.log10(1 + (x / fc) ** (-c))
 
 
 def log_power_law(x, a, c):
@@ -27,7 +27,7 @@ def lorentzian(x, a, fc):
 
 
 def free_roll_lorentzian(x, a, fc, exp):
-    return a / (1 + (x / fc) ** exp)
+    return a / (1 + (x / fc) ** (-exp))
 
 
 def gaussian_function(xs, *params):
